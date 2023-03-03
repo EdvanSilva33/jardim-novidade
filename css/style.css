@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body{
+    font-family: 'Roboto';
+}
+header{
+    border-bottom: #0a4920 4px solid;
+}
+.container .logo{
+    width: 180px;
+}
+.navbar-nav .nav-link{
+    border-bottom: 2px solid transparent
+}
+.navbar-nav .nav-link.active{
+  border-color: #ffff00;
+ 
+}
+.bgcolor{
+    margin: 0 auto;
+    text-align: center;
+   
+    background-color: hsla(0, 0%, 0%, 0.344);
+}
+.nav-servico .nav-link.active, .btn{
+    background-color: #198754;
+    color:#fff;
+ 
+ }
+ .nav-servico .nav-link{
+    color: #062729;
+ }
+ .card .houver{
+    cursor:pointer;
+ }
+
+.container form{
+    max-width: 100%;
+    width: 370px;
+
+}
+.container form .area{
+    resize: none;
+    min-height: 250px;
+}
+.font-lobster{
+    font-family: 'Lobster', cursive;
+}
+.font-marker{
+    font-family: 'Permanent Marker', cursive;
+}
+.cor-fundo{
+    background-color: rgb(235, 233, 231);
+}
+.mensagem-error{
+    color: red;
+}
